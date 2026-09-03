@@ -26,4 +26,4 @@ scan(#r4n9, i -> (
     if i % 100 == 0 then stderr << "Processed " << i << " / " << #r4n9 << endl;
 ));
 close out;
-stderr << "Done! Now run: awk '{print $1 > \"~/r4n9_hex_\" $2 \".txt\"}' ~/r4n9_hexcounts_all.txt" << endl;
+
