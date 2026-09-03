@@ -22,4 +22,3 @@ scan(toList(1..298491), i -> (
     if i % 1000 == 0 then stderr << "Processed " << i << " / 298491" << endl;
 ));
 close out;
-stderr << "Done! Now run: awk '{print $1 > \"/home5/s5464102/r3n11_hex_\" $2 \".txt\"}' ~/r3n11_hexcounts_all.txt" << endl;
