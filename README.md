@@ -13,7 +13,7 @@ Computational pipeline for computing and classifying foundations of matroids fro
 ## Requirements
 
 - [Macaulay2](https://macaulay2.com/) v1.26.05 with Matroids package
-- The foudations package: `load "Matroids/foundations.m2"`
+- The foundations package: `load "Matroids/foundations.m2"`
 
 ## Pipeline
 
