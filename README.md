@@ -5,7 +5,7 @@ Computational pipeline for computing and classifying foundations of matroids fro
 ## Matroid Families
 
 | Family | Rank | Elements | Total matroids | 
-|---|---|---|---|---|
+|---|---|---|---|
 | r4n9 | 4 | 9 | 190,214 | 
 | r3n10 | 3 | 10 | 10,037 | 
 | r3n11 | 3 | 11 | 298,491 | 
