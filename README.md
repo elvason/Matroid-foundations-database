@@ -1,6 +1,6 @@
 # Matroid Foundations Computation
 
-Computational pipeline for computing and classifying foundations of matroids from three families, developed as part of a Master's thesis at the University of Groningen.
+Computational pipeline for computing and classifying foundations of matroids from three families, developed as part of a Bachelor's thesis at the University of Groningen.
 
 ## Matroid Families
 
