@@ -27,4 +27,3 @@ scan(toList(0..<#fileLines), i -> (
     if i % 100 == 0 then stderr << "Processed " << i << " / " << #fileLines << endl;
 ));
 close out;
-stderr << "Done! Now run: awk '{print $1 > \"~/r3n10_hex_\" $2 \".txt\"}' ~/r3n10_hexcounts_all.txt" << endl;
