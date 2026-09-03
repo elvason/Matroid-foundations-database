@@ -4,16 +4,16 @@ Computational pipeline for computing and classifying foundations of matroids fro
 
 ## Matroid Families
 
-| Family | Rank | Elements | Total matroids | 3-connected |
+| Family | Rank | Elements | Total matroids | 
 |---|---|---|---|---|
-| r4n9 | 4 | 9 | 190,214 | 185,545 |
-| r3n10 | 3 | 10 | 10,037 | 5,240 |
-| r3n11 | 3 | 11 | 298,491 | — |
+| r4n9 | 4 | 9 | 190,214 | 
+| r3n10 | 3 | 10 | 10,037 | 
+| r3n11 | 3 | 11 | 298,491 | 
 
 ## Requirements
 
 - [Macaulay2](https://macaulay2.com/) v1.26.05 with Matroids package
-- `load "Matroids/foundations.m2"` must succeed
+- The foudations package: `load "Matroids/foundations.m2"`
 
 ## Pipeline
 
@@ -57,49 +57,6 @@ Matches isomorphism class representatives across the three families for hex coun
 check_v_quotients.m2           -- Cloud VM
 ```
 Checks hex 0–5 classes against 24 symmetry quotients of V, named pastures, finite fields, and supervisor-provided pastures.
-
-## Novel Foundations
-
-### Hex 2 — 10 novel types
-Defined in `novel_foundations_hex2.m2`. None are isomorphic to any known reference pasture.
-
-| Class | Group | ε |
-|---|---|---|
-| A | ℤ/10 | t⁵ |
-| B | ℤ/10 | t⁵ |
-| C | ℤ/2⊕ℤ² | ε |
-| D | (ℤ/2)² | a |
-| G | trivial | 1 |
-| J | ℤ/2⊕ℤ/4 | b² |
-| K | ℤ/2 | ε |
-| M | ℤ/2 | 1 |
-| N | ℤ/3⊕ℤ | 1 |
-| O | ℤ/2⊕ℤ⁴ | ε |
-
-### Hex 3 — 19 novel types
-Defined in `novel_foundations_hex3.m2`. None are isomorphic to any known reference pasture or finite field up to GF(32).
-
-| Class | Group | ε |
-|---|---|---|
-| hex3-2 | ℤ/2⊕ℤ/6 | (1,0) |
-| hex3-4 | ℤ/2⊕ℤ² | (1,0,0) |
-| hex3-5 | ℤ/2⊕ℤ² | (1,0,0) |
-| hex3-6 | ℤ/6⊕ℤ² | (3,0,0) |
-| hex3-8 | ℤ/2⊕ℤ² | (1,0,0) |
-| hex3-9 | ℤ/2⊕ℤ | (1,0) |
-| hex3-10 | trivial | 0 |
-| hex3-11 | ℤ/12 | t⁶ |
-| hex3-13 | trivial | (0,0) |
-| hex3-14 | ℤ/2⊕ℤ | (1,0) |
-| hex3-15 | ℤ/2⊕ℤ | (1,0) |
-| hex3-16 | trivial | 0 |
-| hex3-17 | ℤ/4⊕ℤ | (2,0) |
-| hex3-18 | ℤ/10⊕ℤ | (5,0) |
-| hex3-19 | ℤ/4⊕ℤ | (2,0) |
-| hex3-20 | ℤ/16 | t⁸ |
-| hex3-21 | ℤ/16 | t⁸ |
-| hex3-23 | (ℤ/2)² | (1,0) |
-| hex3-24 | ℤ/2⊕ℤ | (1,0) |
 
 ## Key Functions
 
